@@ -18,3 +18,8 @@ the dataset used is `customer-booking.csv` and contains various features related
 - `wants_extra_baggage`, `wants_preferred_seat`, `wants_in_flight_meals`: optional services selected
 - `flight_duration`: flight time in hours
 - `booking_complete`: target variable
+
+## 🌳 MODELLING 
+   - applied **Random Forest Classifier**
+   - used **GridSearchCV** for hyperparameter tuning
+   - evaluated model with metrics: accuracy, AUC, confusion matrix, etc.
